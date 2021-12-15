@@ -1,0 +1,20 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "AudioPlay"
+include ':music'
+include ':lib_audio'
+include ':lib_video'
+include ':lib_common_ui'
+include ':lib_image_loader'
+include ':lib_network'
+include ':lib_pullalive'
+include ':lib_qrcode'
+include ':lib_share'
+include ':lib_update'
+include ':lib_webview'

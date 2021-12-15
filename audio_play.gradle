@@ -1,0 +1,19 @@
+ext {
+    android = [
+            applicationId     : "com.example.music",
+            compileSdkVersion : 28,
+            minSdkVersion     : 23,
+            targetSdkVersion  : 28,
+            versionCode       : 1,
+            versionName       : "1.0",
+            multiDexEnabled    : true
+    ]
+
+    depsVersion = [
+            appcompatVersion: '28.0.0'
+    ]
+
+    depsLibs = [
+            appcompat : "com.android.support:appcompat-v7:${depsVersion.appcompatVersion}"
+    ]
+}
